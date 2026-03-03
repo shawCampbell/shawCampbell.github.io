@@ -48,9 +48,23 @@ body.dark .topbar { --nav-bg: #1e1e1e; }
 
 /* centre any element with this class */
 .welcome-message {
+    font-weight: 700;
     text-align: center;
     margin: 0.5rem 0;          /* optional spacing */
-    
+    margin-bottom: 4rem;
+}
+
+.welcome-subheading {
+    text-align: center;
+    margin: 0.5rem 0;          /* optional spacing */
+    color:#545454
+
+}
+
+body.dark .welcome-subheading {
+    text-align: center;
+    margin: 0.5rem 0;          /* optional spacing */
+    color: #cdd0ce;
 }
 
 
@@ -155,14 +169,16 @@ body.dark .topbar { --nav-bg: #1e1e1e; }
 
 #books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 62px;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
 .book-card {
   text-align: center;
-  color: #eaeaea;
-  margin-left: 5rem;
+  /* color: #eaeaea; */
+  /* margin-left: 1.5rem; */
 }
 
 .book-cover {
@@ -190,17 +206,32 @@ body.dark .topbar { --nav-bg: #1e1e1e; }
   mask-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
 }
 
+.book-title {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  
+}
+
+.book-author {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #9aa0a6;
+}
+
 /* Artworks */
+
 #artworks-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 62px;
+  margin-left: 25rem;
+  margin-right: 25rem;
 }
 
 .artwork-card {
   text-align: center;
-  color: #eaeaea;
-  margin-left: 5rem;
+  /* color: #eaeaea; */
+  /* margin-left: 1.5rem; */
 }
 
 .artwork-cover {

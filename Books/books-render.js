@@ -10,8 +10,8 @@ books.forEach(book => {
     <div class="book-cover">
       <img src="${book.cover}" alt="${book.title}">
     </div>
-    <h3>${book.title}</h3>
-    <p>${book.author}</p>
+    <h3 >${book.title}</h3>
+    <p >${book.author}</p>
   `;
 
   grid.appendChild(card);

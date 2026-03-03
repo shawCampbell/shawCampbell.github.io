@@ -1,55 +1,20 @@
 const artworks = [
   {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
+    title: "Dog",
+    author: "2025",
+    cover: "Art/Dog.png"
   },
 
   {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
+    title: "Khoisan Woman",
+    author: "2021",
+    cover: "Art/Xoisan.png"
   },
 
   {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
+    title: "Self Portrait",
+    author: "2020",
+    cover: "Art/Self.png"
   },
 
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  },
-
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  },
-
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  },
-
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  },
-
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  },
-  
-  {
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    cover: "Art/CleanCode.png"
-  }
 ];
