@@ -1,0 +1,12 @@
+.image-container {
+  display: flex;
+  justify-content: space-around; /* Distributes images with equal space around them */
+  gap: 2px; /* Adds a 10px gap between images */
+}
+
+.image-container img {
+  /* make sure each image takes roughly a third of the container width, allowing the flex gap to
+     space them out. use max-width to avoid stretching if the image is smaller. */
+  max-width: 16%;      /* let flex item size itself to the max-width constraint */
+  height: auto;
+}
