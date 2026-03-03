@@ -14,28 +14,59 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- corrected stylesheet path; index.css lives in project root -->
   <link rel="stylesheet" href="index.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
   <meta name="google-site-verification" content="dleH2YHbA0-w5aYgaY_45T9ja3zkRFwksDVwxiCJCxQ" />
 </head>
 
-<nav class="topbar">
-  <!-- use relative paths so they resolve correctly whether the site is served from
-       the user root or a repository sub‑path -->
+<!-- <nav class="topbar">
+
   <a href="index.html">Home</a>
   <a href="projects.html">Projects</a>
-  <!-- contact page doesn’t exist yet; update or create it as needed -->
   <a href="reading.html">Reading</a>
+</nav> -->
+<nav class="topbar">
+
+    <!-- home icon at the right -->
+  <a href="index.html" class="home-icon" aria-label="Home">
+    <i class="bi bi-house"></i>
+  </a>
+
+  <!-- centred links -->
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Career</a>
+    <a href="reading.html">Reading</a>
+	<a href="art.html">Art</a>
+  </div>
+
+  <!-- toggle button on the left -->
+  <button id="theme-toggle" class="btn btn-link p-0" aria-label="Toggle theme">
+    <i class="bi bi-moon-stars"></i>
+  </button>
 </nav>
 
-<img src="images/shaw.png" alt="A descriptive text of the image content">
+<!-- …inside index.html… -->
+<!-- bootstrap way -->
+<img src="images/shaw.jpeg"
+     alt="Shaw’s photo"
+     class="mx-auto d-block rounded-circle"
+     style="width:200px;height:200px;object-fit:cover;">
 
-<h1>
-	Shaw's Personal Website
-<h1>
+<h1 class="welcome-message">
+    Shaw Campbell
+</h1>          <!-- ← fixed closing tag -->
 
-<h2>BSc Eng Electrical and Computer Engineering Graduate | Software Developer</h2>
+<h3 class="welcome-message">
+    BSc (Eng) Electrical and Computer Engineering Graduate (With Honours) 
+</h3>
+<h3 class="welcome-message">
+	Software Engineer
+</h3>
+<h3 class="welcome-message">
+	Artist
+</h3>
+
 
 <div class="social-links">
   <a href="https://www.linkedin.com/in/shaw-zhang-123456789/" target="_blank">CV</a>
@@ -45,9 +76,8 @@
 </div>
 
 <div class="image-container">
-  <img src="images/test1.png" alt="Description 1">
-  <img src="images/test2.png" alt="Description 2">
-  <img src="images/test3.png" alt="Description 3">
-  <img src="images/test4.png" alt="Description 4">
-  <img src="images/test5.png" alt="Description 5">
+  <img src="images/drawing1.png" alt="Description 1">
+  <img src="images/drawing2.png" alt="Description 2">
+  <img src="images/drawing3.png" alt="Description 3">
+
 </div>

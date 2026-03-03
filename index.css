@@ -1,12 +1,152 @@
+/* …existing rules… */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  background: var(--nav-bg, #fff);
+  margin-bottom: 1rem;
+}
+
+.topbar .nav-links {
+  display: flex;
+  gap: 1rem;               /* space between the links */
+  margin: 0 auto;          /* centre the group */
+}
+
+.topbar #theme-toggle,
+.topbar .home-icon {
+  font-size: 1.4rem;       /* make the icons a sensible size */
+}
+
+/* dark‑mode example */
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+body.dark .topbar { --nav-bg: #1e1e1e; }
+
 .image-container {
   display: flex;
-  justify-content: space-around; /* Distributes images with equal space around them */
-  gap: 2px; /* Adds a 10px gap between images */
+  justify-content: center; /* keep images close together */
+  gap: 6px;                /* small, controlled spacing */
 }
 
 .image-container img {
-  /* make sure each image takes roughly a third of the container width, allowing the flex gap to
-     space them out. use max-width to avoid stretching if the image is smaller. */
-  max-width: 16%;      /* let flex item size itself to the max-width constraint */
+  max-width: 13%;
   height: auto;
+  border-radius: 10px;     /* rounded corners */
+}
+
+.social-links{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center; /* Center the social media icons */
+    gap: 1rem;              /* Add space between the icons */
+    margin-bottom: 2rem;
+}
+
+/* centre any element with this class */
+.welcome-message {
+    text-align: center;
+    margin: 0.5rem 0;          /* optional spacing */
+    
+}
+
+
+/* body {
+  background: #0b0b0c;
+  color: #eaeaea;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+} */
+
+.timeline {
+  max-width: 900px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 120px 30px 1fr;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.timeline-date {
+  color: #9aa0a6;
+  font-size: 0.9rem;
+}
+
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  background: #3b82f6;
+  border-radius: 50%;
+  position: relative;
+}
+
+.timeline-dot.green {
+  background: #22c55e;
+}
+
+.timeline-dot::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  width: 2px;
+  height: 80px;
+  background: #1f2937;
+  transform: translateX(-50%);
+}
+
+.timeline-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  backdrop-filter: blur(8px);
+  position: relative;
+}
+
+.card-left img {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  /* background: #111; */
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card-content p {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: #9aa0a6;
+}
+
+.tag {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 0.7rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  text-transform: lowercase;
+}
+
+.tag.education {
+  background: rgba(59,130,246,0.15);
+  color: #60a5fa;
+}
+
+.tag.experience {
+  background: rgba(34,197,94,0.15);
+  color: #4ade80;
 }
