@@ -50,7 +50,7 @@ const books = [
   {
     title: "Sapein: A Brief History of Humankind",
     author: "Yuval Noah Harari",
-    cover: "Books/Sapiens.png"
+    cover: "Books/sapiens.png"
   },
 
   {
