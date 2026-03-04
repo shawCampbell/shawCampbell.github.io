@@ -29,13 +29,14 @@ body.dark .topbar { --nav-bg: #1e1e1e; }
 .image-container {
   display: flex;
   justify-content: center; /* keep images close together */
-  gap: 6px;                /* small, controlled spacing */
+  gap: 6px;                /* small, controlled spacing  */
 }
 
 .image-container img {
-  max-width: 13%;
+  max-width: 20%;
   height: auto;
-  border-radius: 10px;     /* rounded corners */
+  border-radius: 20px;     /* rounded corners */
+  margin-left: 5rem;
 }
 
 .social-links{
@@ -118,13 +119,14 @@ body.dark .welcome-subheading {
 .timeline-card {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap:16px;
   padding: 16px 20px;
   background: rgba(255, 255, 255, 0.04);
   border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.4);
   backdrop-filter: blur(8px);
   position: relative;
+  margin-top: -1.8rem;
 }
 
 .card-left img {
@@ -257,4 +259,21 @@ body.dark .welcome-subheading {
   opacity: 0.25;
   filter: blur(2px);
   mask-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent);
+}
+
+/* Toggle */
+
+.timeline-toggle {
+  display: block;
+  margin: 0 auto 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  /* margin-left: 1rem; */
+}
+
+.timeline-toggle:hover {
+  opacity: 0.7;
 }
