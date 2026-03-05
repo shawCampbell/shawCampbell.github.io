@@ -5,7 +5,7 @@ window.career = [
     logo: "images/PSG_Logo.png",
     date: "2025 - Present",
     location: "PSG Financial Services, Cape Town, South Africa",
-    description: "blah blah blah"
+    description: "I work with C#, .NET and Angular."
   },
 
   {
@@ -14,7 +14,7 @@ window.career = [
     logo: "images/UCT_Logo.png",
     date: "2026",
     location: "University of Cape Town, South Africa",
-    description: "blah blah blah"
+    description: "With Honours"
   },
 
   {
@@ -23,7 +23,7 @@ window.career = [
     logo: "images/Peralex_Logo.jpg",
     date: "2025 (June - August)",
     location: "Peralex Electronics, South Africa",
-    description: "blah blah blah"
+    description: "Built an application in Python to visualise electromagnetic simulations."
   },
 
   {
@@ -32,7 +32,7 @@ window.career = [
     logo: "images/Electrum_Logo.png",
     date: "2024 (June - August)",
     location: "Electrum Payements, South Africa",
-    description: "blah blah blah"
+    description: "Did a project in Java."
   },
 
     {
@@ -41,7 +41,7 @@ window.career = [
     logo: "images/UCT_Logo.png",
     date: "2021",
     location: "University of Cape Town, South Africa",
-    description: "blah blah blah"
+    description: ""
   },
 
 ];
