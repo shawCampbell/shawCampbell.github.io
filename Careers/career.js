@@ -14,7 +14,7 @@ window.career = [
     logo: "images/UCT_Logo.png",
     date: "2026",
     location: "University of Cape Town, South Africa",
-    description: "With Honours"
+    description: "With Honours. My thesis was on medical machine learning."
   },
 
   {
