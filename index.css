@@ -115,6 +115,7 @@ body.dark .welcome-subheading {
   background: #1f2937;
   transform: translateX(-50%);
 }
+/*  */
 
 .timeline-card {
   display: flex;
