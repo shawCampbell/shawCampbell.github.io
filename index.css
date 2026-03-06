@@ -278,3 +278,27 @@ body.dark .welcome-subheading {
 .timeline-toggle:hover {
   opacity: 0.7;
 }
+
+/* Thesis */
+
+.thesis-title{
+  text-align: center;
+  font-weight: 700;
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.thesis-content{
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  justify-content: center;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
