@@ -302,3 +302,7 @@ ul {
   display: inline-block;
   margin-top: 0.5rem;
 }
+
+img {
+  width:90%;
+}
